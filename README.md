@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/recipe-page-html-css  
-- Live Site URL: https://your-live-site-url.com
+- Solution URL: https://github.com/vale345/Recipe-page
+- Live Site URL: https://recipe-page-zeta-peach.vercel.app/
 
 ### Built with
 
@@ -48,7 +48,3 @@ I want to continue improving my layout skills and focus more on:
 - Better use of Flexbox and Grid
 - Writing cleaner and more organized CSS
 
-## Author
-
-- Frontend Mentor - @Valeria  
-- GitHub - https://github.com/your-username  
