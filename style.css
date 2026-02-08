@@ -1,0 +1,209 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--Stone100);
+  font-family: Arial, sans-serif;
+  color: var(--Stone900);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: center;
+}
+/* 
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: center;
+} */
+
+/* main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+/* .container {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 350px;
+  width: 100%;
+} */
+
+ /* main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}  */
+
+/* Card */
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  
+}
+
+/* Image */
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Titles */
+.title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: var(--Brown800);
+  margin: 20px 0 20px;
+}
+
+/* Text */
+.description {
+  color: var(--Stone600);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Prep time box */
+.prep-time {
+  background-color: var(--Rose50);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.prep-time h3 {
+  color: var(--Rose800);
+  margin-bottom: 18px;
+}
+
+/* .prep-time ul {
+  padding-left: 25px;
+  
+} */
+
+.prep-time ul {
+  list-style-position: outside;
+  padding-left: 23px;
+}
+
+.prep-time li {
+  padding-left: 16px;
+}
+
+.prep-time li {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+.ingredients,
+.instructions {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 14px;
+  line-height: 1.5;
+  list-style-position: outside;
+  padding-left: 23px;
+}
+
+.instructions li::marker {
+  color: var(--Brown800);
+  font-weight: bold;
+}
+
+/* Table */
+/* .nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+} */
+
+.nutrition-table {
+  width: 100%;
+  /* width: auto; */
+  border-collapse: collapse;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+.nutrition-table td {
+  /* padding: 10px 0;
+  border-bottom: 1px solid var(--Stone150); */
+   padding: 16px 0px;   /* espacio interno */
+  border-bottom: 1px solid var(--Stone150);
+}
+
+.nutrition-table td:first-child {
+  padding-left: 33px;
+  width: 53%;  
+}
+
+.nutrition-table td:last-child {
+  /* color: var(--Brown800);
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px; */
+  color: var(--Brown800);
+  font-weight: bold;
+  /* padding-left: 200px; */
+  text-align: left;
+  width: 47%; 
+  padding-right: 35px;
+}
+
+
+/* .nutrition-table td {
+  padding: 14px 0  14px 32px;
+  border-bottom: 1px solid var(--Stone150);
+}
+
+.nutrition-table td:last-child {
+  color: var(--Brown800);
+  font-weight: bold;
+  text-align: right;
+} */
+
+/* Footer */
+.attribution {
+  margin: 15px;
+  font-size: 11px;
+  text-align: center;
+  /* padding: 10px 0; */
+}
